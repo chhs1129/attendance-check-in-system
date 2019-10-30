@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Admin</title>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+    </head>
+    
+    <body>
+        <div>
+        <h1>Admin login</h1>
+        
+            <form name='MyForm' id='form' method='POST'>
+                <label for='username'>Username:</label> 
+                <input name='username' id='uname' type='text' value='admin' /> <br />
+                <label for='pwd'>Password:</label> 
+                <input name='pwd' id='upass' type='password' value='1234'/> <br />
+                <br/ id='newline'>
+            </form>
+        
+         <button id='log_but' onclick='logfunc()'>Login</button>
+         <br/>
+         <a href="check_in.html">Check-in now</a>
+        </div>
+        <footer id="footer">Copyright &copy; Haosen Cheng 2018</footer>
+        <script src="jquery.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Admin</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div>
+        <h1>Student Check-in</h1>
+            <label for='cid'>Course ID:</label> 
+            <input name='cid' id='cid' type='text' style="text-transform:uppercase"/> <br />
+            <label for='name'>Your name:</label> 
+            <input name='name' id='name' type='text' style="text-transform:lowercase"/> <br />
+            <label for='uid'>User ID:</label> 
+            <input name='uid' id='uid' type='text' /> <br />
+            <br/ id='newline'>
+         <button id='check_but' onclick='check_but_func()'>Check-in</button>
+         <button onclick='clear_but_func()'>Reset</button>
+         <br/>
+         </div>
+        <footer id="footer">Copyright &copy; Haosen Cheng 2018</footer>
+    </body>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</html>
